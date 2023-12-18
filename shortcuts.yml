@@ -1,11 +1,516 @@
-# Documentation:
-# https://trovu.net/docs/shortcuts/
-
-examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q=<query>
-examplekeyword 2:
-  url: http://www.example.com/?q=<query>&p=<puery>
-  title: Custom shortcut
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+l 1:
+  url: http://dict.leo.org/ende?lp=ende&lang=de&searchLoc=0&cmpType=relaxed&sectHdr=on&spellToler=on&search=<query>&relink=on
+  title: LEO query
+'! 1':
+  url: /shortcuts?keyword=<keyword>
+  title: 'FindFind.it: Search shortcuts by keyword'
   tags:
-  - example
+  - findfind.it
+  examples:
+    g: search for shortcuts containing "g"
+pwgen 0:
+  url: http://www.kessnux.de/anwendungen/passwort-generator.php
+  title: Franks Passwortgenerator
+bpo 1:
+  url: 'http://www.berliner-philharmoniker.de/konzerte/kalender/von/<datum: {type:
+    date, output: YYYY-MM}>/#<datum: {type: date, output: YYYY-MM-DD}>'
+  title: Berlin Philharmonic Orchestra / Berliner Philharmoniker (date)
+  tags:
+  - berlin
+  - cultural events
+  - classical music
+  - music
+ffrepo 0:
+  url: https://github.com/georgjaehnig/serchilo-drupal/
+  title: Findfind.it source code (github repo)
+  tags:
+  - software
+  - open source
+jsqr 0:
+  url: http://www.jsqr.de/encode.html
+  title: QR-Code generator in the browser
+  tags:
+  - javascript
+  - qr
+qrdecode 0:
+  url: https://webqr.com
+  title: QR-Decoder in the browser
+  tags:
+  - javascript
+  - qr
+qrcoder 0:
+  url: http://www.jsqr.de/encode.html
+  title: QR-Code generator in the browser
+  tags:
+  - javascript
+  - qr
+qr 0:
+  url: https://zxing.appspot.com/generator
+  title: QR Encoder by Zxing
+  tags:
+  - qr
+  - serverbased
+gh 0:
+  url: https://github.com
+  title: GitHub
+  tags:
+  - software
+gm 2:
+  url: 'http://maps.google.com/maps?hl=<$language>&saddr=<start: {type: city}>&daddr=<destination:
+    {type: city}>'
+  title: Google Maps Directions (Routing)
+  tags:
+  - maps
+  - google
+  - routing
+  - route
+  examples:
+    berlin DE, hamburg DE: Get a route from Berlin, Germany, to Hamburg, Germany
+    new york, chicago: Get a route from New York to Chicago
+wo 1:
+  url: http://www.wetteronline.de/wetter/<location>
+  title: WetterOnline
+  tags:
+  - weather
+rollberg 0:
+  url: https://www.yorck.de/kinos/rollberg
+  title: Rollbergkino Berlin
+  tags:
+  - kino
+  - berlin
+odeon 0:
+  url: https://www.yorck.de/kinos/odeon
+  title: Kino Odeon Berlin
+  tags:
+  - kino
+  - berlin
+cosima 0:
+  url: http://cosima-filmtheater-berlin.kino-zeit.de/programm
+  title: Kino Cosima Berlin
+  tags:
+  - kino
+  - berlin
+ct 0:
+  url: http://www.heise.de/ct/
+  title: c't
+  tags:
+  - publisher
+  - magazine
+  - software
+  - hardware
+osmc 0:
+  url: https://osmc.tv
+  title: Open Source Media Center
+  tags:
+  - software
+  - raspberrypi
+  - open source
+  - tv
+  - mediathek
+  - mediaplayer
+techrights 0:
+  url: http://techrights.org/feed/
+  title: Techrights (Schestowitz blog) - People's rights in the digital age blog (RSS
+    feed)
+  tags:
+  - patents
+  - patent law
+  - intellectual property
+  - ip law
+  - copyright
+ez 0:
+  url: http://www.easyjet.com/de/
+  title: Easyjet (de)
+  tags:
+  - airline
+  - travel
+paperwallet 0:
+  url: https://www.bitaddress.org
+  title: Bitaddress Paperwallet and generator
+  tags:
+  - bitcoin
+  - randomnumbergenerator
+  - javascript
+sz 1:
+  url: http://www.sueddeutsche.de/news?search=<query>
+  title: Süddeutsche Zeitung
+  tags:
+  - newspaper
+  - news
+  - print
+utils 0:
+  url: https://github.com/Wikinaut/utils/wiki
+  title: Utils
+  tags:
+  - utils
+  - open source
+  - github
+tom 0:
+  url: https://www.taz.de/#!tom=tomdestages
+  title: Tom Touché (Tom des Tages)
+  tags:
+  - taz
+  - comic
+dradio 1:
+  url: 'http://www.deutschlandradiokultur.de/programmvorschau.282.de.html?drbm:date=<date:
+    {type: date, output: DD.MM.YYYY}>'
+  title: Deutschlandradio Kultur
+  tags:
+  - radiostation
+dradio 0:
+  url: 'http://www.deutschlandradiokultur.de/programmvorschau.282.de.html?drbm:date=<$now:
+    {type: date, output: DD.MM.YYYY}>'
+  title: Deutschlandradio Kultur
+  tags:
+  - radiostation
+wurfsendung 0:
+  url: http://wurfsendung.dradio.de/wurf/
+  title: Wurfsendung Deutschlandradio Kultur
+  tags:
+  - radiostation
+  - comedy
+bpo 0:
+  url: 'http://www.berliner-philharmoniker.de/konzerte/kalender/von/<$now: {type:
+    date, output: YYYY-MM}>/#<$now: {type: date, output: YYYY-MM-DD}>'
+  title: Berlin Philharmonic Orchestra / Berliner Philharmoniker (today)
+  tags:
+  - berlin
+  - cultural events
+  - classical music
+  - music
+radiogold 0:
+  url: http://www.radiogold.de
+  title: radio GOLD real classics Berlin
+  tags:
+  - internetradio
+  - radio statio
+  - at40
+  - american top 40
+  - berlin
+at40 0:
+  url: http://www.charismusicgroup.com/calendar.htm
+  title: American Top 40 Cue Sheets
+  tags:
+  - american top 40
+  - radio station
+psc2015 0:
+  url: http://psc2015videos.projectbullrun.org
+  title: Post-Snowden Cryptography Conference 2015 Videos
+aegean 0:
+  url: http://de.aegeanair.com
+  title: Aegean Airlines
+  tags:
+  - flights
+  - greece
+1und1 0:
+  url: https://www.1und1.de/login
+  title: 1und1 Kundenlogin
+  tags:
+  - internetprovider
+  - communications
+tsp 0:
+  url: http://www.tagesspiegel.de/
+  title: Tagesspiegel
+tsp 1:
+  url: http://www.tagesspiegel.de/suchergebnis/?sw=<query>
+  title: Tagesspiegel
+  tags:
+  - berlin
+  - newspaper
+tsptrauer 0:
+  url: http://trauer.tagesspiegel.de
+  title: Tagesspiegel Traueranzeigen
+  tags:
+  - berlin
+  - newspaper
+  - online obituaries
+zoopalast 0:
+  url: http://www.zoopalast-berlin.de/programm/tagesprogramm/
+  title: Zoo-Palast Kino Berlin
+  tags:
+  - berlin
+  - kino
+gt 0:
+  url: https://translate.google.de
+  title: Google translate
+  tags:
+  - google
+  - translation
+fslint 0:
+  url: https://github.com/pixelb/fslint
+  title: FSlint Duplicate File Finder
+koka36 1:
+  url: 'http://www.koka36.de/suche.php?search=<query: {encoding: iso-8859-1}>'
+  title: Koka36.de Konzertkasse
+  tags:
+  - events
+  - concerts
+  - konzerte
+  - berlin
+  examples:
+    berlin: Suche nach Konzerten und Events in Berlin
+koka36 0:
+  url: https://www.koka36.de/
+  title: Koka36.de Konzertkasse
+  tags:
+  - events
+  - concerts
+  - konzerte
+  - berlin
+dradiostream 0:
+  url: http://srv.deutschlandradio.de/themes/dradio/script/aod/index.html?audioMode=2&audioID=3&state=
+  title: Deutschlandradio Kultur Stream
+  tags:
+  - radio statio
+  - berlin
+  - internetradio
+drk64 0:
+  url: http://edge13229.icecast.akadns.net/7/536/142684/v1/gnl.akacast.akamaistream.net/dradio_mp3_dkultur_s?akacasthops=3
+  title: Deutschlandradio Kultur Stream 64 kb/s
+  tags:
+  - radio statio
+  - berlin
+  - internetradio
+wettersymbole 0:
+  url: https://de.wikipedia.org/wiki/Wetterkarte#Wetterkartensymbol
+  title: Wettersymbole
+  tags:
+  - life
+  - environment
+  - weather
+  - signs
+  - symbols
+secretagent 0:
+  url: https://somafm.com/player/#/now-playing/secretagent
+  title: SomaFM channel Secret Agent
+  tags:
+  - somafm
+  - internetradio
+tvtoday 0:
+  url: http://www.tvtoday.de/tv-programm/
+  title: TV Today
+  tags:
+  - tv
+  - germany
+cigna 0:
+  url: https://www.cignahealthbenefits.com/en/plan-members
+  title: Cigna Abrechnungen
+  tags:
+  - insurance
+telefonbuch 0:
+  url: http://www.dastelefonbuch.de
+  title: Telefonbuch
+  tags:
+  - telefonbuch
+signal 0:
+  url: https://github.com/WhisperSystems/Signal-Android
+  title: Signal Android App
+  tags:
+  - open source
+  - messenger software
+1und1callback 0:
+  url: https://hilfe-center.1und1.de/hosting/callback-service
+  title: 1und1 Callbackservice
+  tags:
+  - internetprovider
+'!f 1':
+  url: /shortcuts?keyword_op=starts&keyword=<keyword>
+  title: 'FindFind.it: Search shortcuts by keyword'
+  tags:
+  - findfind.it
+  examples:
+    g: search for commands with a keyword beginning with "g"
+tr 0:
+  url: http://techrights.org/feed/
+  title: Techrights (Schestowitz blog) - People's rights in the digital age blog (RSS
+    feed)
+  tags:
+  - patents
+  - patent law
+  - intellectual property
+  - ip law
+  - copyright
+keys 1:
+  url: https://sks-keyservers.net/pks/lookup?op=vindex&search=<query>&fingerprint=on
+  title: Keyserver
+  tags:
+  - gnupg
+  - pgp
+  - gpg
+  - keyserver
+fritz 0:
+  url: http://fritz.box
+  title: Fritz
+  tags:
+  - service
+cpu 1:
+  url: https://www.passmark.com/search/zoomsearch.php?zoom_query=<query>
+  title: CPU Benchmark
+  tags:
+  - cpu
+  - benchmark
+  - hardware
+libresignal 0:
+  url: https://www.kuketz-blog.de/android-signal-ohne-google-cloud-messaging/
+  title: LibreSignal (Signal-App fork)
+  tags:
+  - messenger
+  - android
+  - open source
+wühlmäuse 0:
+  url: https://www.wuehlmaeuse.de
+  title: Die Wühlmäuse Kabarett
+  tags:
+  - berlin
+  - cabaret
+  - tickets
+internetmarke 0:
+  url: https://www.deutschepost.de/de.html
+  title: Deutsche Post Internetmarke
+  tags:
+  - deutsche post
+  - post
+  - paket delivery
+paketmarke 0:
+  url: https://www.efiliale.de/paketversand/dhl-online-beauftragen?cid=DP_101002042
+  title: Deutsche Post DHL Paketmarke per Portokasse
+  tags:
+  - deutsche post
+  - paket
+  - dhl
+  - service
+netzabdeckung 0:
+  url: http://www.teltarif.de/mobilfunk/netz/
+  title: Mobilfunknetzabdeckung
+  tags:
+  - mobile
+  - phone
+sonntagskonzert 0:
+  url: https://www.kulturradio.de/programm/schema/sendungen/sonntagskonzert.html
+  title: Sonntagskonzert RBB Kulturradio
+  tags:
+  - radio station
+  - classical music
+wurfsendung-serie-radioli 0:
+  url: http://wurfsendung.dradio.de/wurf/index.php/de/Home/ArchivDetail/id/242
+  title: Wurfsendung Serie "Radioli"
+sudokogen 0:
+  url: http://www.opensky.ca/~jdhildeb/software/sudokugen/
+  title: Sudoku Generator
+  tags:
+  - puzzle
+  - games
+interkulturellerkalender 0:
+  url: https://www.berlin.de/lb/intmig/service/interkultureller-kalender/
+  title: Interkultureller Kalender
+  tags:
+  - multikulti
+  - calendar
+dhl 0:
+  url: https://www.dhl.de/de/paket/information/sendungsverfolgung.html
+  title: DHL Tracking
+  tags:
+  - deutsche post
+gloria 0:
+  url: http://gloria-menue.de
+  title: Gloria-Menü Bringedienst
+passwordstrengthestimator 0:
+  url: https://github.com/dropbox/zxcvbn
+  title: Password strength estimator
+sommerkino 0:
+  url: https://www.yorck.de/kinos/sommerkino-kulturforum
+  title: Sommerkino Kulturforum
+  tags:
+  - berlin
+  - cultural events
+  - cinema
+idealo 1:
+  url: http://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=<query>
+  title: Idealo Preisvergleich
+  tags:
+  - preisvergleich
+dn 0:
+  url: https://www.democracynow.org
+  title: Democracy Now!
+  tags:
+  - politics
+  - news
+mv 0:
+  url: https://mediathekviewweb.de
+  title: MediathekView Webview
+  tags:
+  - tv
+  - television
+  - mediathek
+  - video
+inverssuche 0:
+  url: http://www.dastelefonbuch.de/Rückwärts-Suche
+  title: Inverssuche Telefonbuch
+fr24 0:
+  url: https://www.flightradar24.com/
+  title: Flightradar24
+  tags:
+  - travel
+  - flights
+mv 1:
+  url: https://mediathekviewweb.de/#query=<query>
+  title: MediathekView Webview Search
+  tags:
+  - tv
+  - television
+  - mediathek
+  - video
+duden 1:
+  url: http://www.duden.de/suchen/dudenonline/<wort>
+  title: Duden
+  tags:
+  - language
+  - german
+  - deutsch
+  - rechtschreibung
+  examples:
+    stuhl: Nachschlagen des Wortes "Stuhl"
+internetwache 0:
+  url: https://www.internetwache-polizei-berlin.de/index_3.html
+  title: Internetwache Polizei Berlin
+  tags:
+  - polizei
+  - berlin
+szkw 0:
+  url: http://www.sz-online.de/unterhaltung/spiele/kreuzwortraetsel
+  title: Kreuzworträtsel der SZ-Online
+  tags:
+  - games
+  - crossword puzzle
+cccb 0:
+  url: https://berlin.ccc.de/wiki/Hauptseite
+  title: Chaos Computer Club Berlin
+  tags:
+  - ccc
+  - computer
+  - hacktivism
+flotte 0:
+  url: https://flotte-berlin.de
+  title: fLotte - Freie Lastenräder in Berlin
+  tags:
+  - transport
+  - cycling
+  - bicycle
+  - changing cities
+w4 0:
+  url: https://www.marinetraffic.com/en/ais/details/ships/shipid:131599/mmsi:211237490/vessel:WALROSS%204
+  title: Walross 4 (Marine Traffic)
+  tags:
+  - maritime
+ma 0:
+  url: https://berlin.social
+  title: Mastodon
+  tags:
+  - mastodon
+  - chaossocial
+ur 0:
+  url: https://urbanrepair.de
+  title: Urbanrepair
+  tags:
+  - urbanrepair
+  - berlin
