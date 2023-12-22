@@ -20,6 +20,11 @@ bpo 1:
   - cultural events
   - classical music
   - music
+cosima 0:
+  url: http://cosima-filmtheater.de/
+  title: Cosima Filmtheater Berlin
+  tags:
+  - kino
 ffrepo 0:
   url: https://github.com/georgjaehnig/serchilo-drupal/
   title: Findfind.it source code (github repo)
