@@ -85,7 +85,7 @@ odeon 0:
   - kino
   - berlin
 cosima 0:
-  url:   url: http://cosima-filmtheater.de/
+  url: http://cosima-filmtheater.de/
   title: Kino Cosima Berlin
   tags:
   - kino
