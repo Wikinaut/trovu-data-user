@@ -13,7 +13,8 @@ pwgen 0:
   title: Franks Passwortgenerator
 br 0:
   url: https://bikerouter.de
-  title: Fahrrad bike osm router
+  title: Bikerouter
+  tags: Fahrrad bike osm router
 bpo 1:
   url: 'http://www.berliner-philharmoniker.de/konzerte/kalender/von/<datum: {type:
     date, output: YYYY-MM}>/#<datum: {type: date, output: YYYY-MM-DD}>'
