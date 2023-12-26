@@ -12,7 +12,7 @@ pwgen 0:
   url: http://www.kessnux.de/anwendungen/passwort-generator.php
   title: Franks Passwortgenerator
 br 0:
-  url: https:/bikerouter.de
+  url: https://bikerouter.de
   title: Fahrrad bike osm router
 bpo 1:
   url: 'http://www.berliner-philharmoniker.de/konzerte/kalender/von/<datum: {type:
