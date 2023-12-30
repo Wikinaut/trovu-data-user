@@ -11,6 +11,7 @@ l 1:
 ctv 0:
   include: 
   key: ccctv 0
+  namespace: o
 pwgen 0:
   url: http://www.kessnux.de/anwendungen/passwort-generator.php
   title: Franks Passwortgenerator
