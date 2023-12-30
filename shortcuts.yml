@@ -8,6 +8,8 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+ctv 0:
+  include: ccctv
 pwgen 0:
   url: http://www.kessnux.de/anwendungen/passwort-generator.php
   title: Franks Passwortgenerator
