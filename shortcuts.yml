@@ -9,7 +9,8 @@ l 1:
   examples:
     g: search for shortcuts containing "g"
 ctv 0:
-  include: ccctv
+  include: 
+  key: ccctv 0
 pwgen 0:
   url: http://www.kessnux.de/anwendungen/passwort-generator.php
   title: Franks Passwortgenerator
