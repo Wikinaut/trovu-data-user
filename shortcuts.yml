@@ -8,6 +8,9 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+rc 0:
+  url: https://www.respectcyclists.de/
+  tags: fahrrad bicycle berlin 
 ctv 0:
   include:
     key: ccctv 0
