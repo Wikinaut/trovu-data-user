@@ -10,6 +10,7 @@ l 1:
     g: search for shortcuts containing "g"
 rc 0:
   url: https://www.respectcyclists.de/
+  title: Respect Cyclists - Sicher Radfahren in Berlin
   tags: fahrrad bicycle berlin 
 ctv 0:
   include:
