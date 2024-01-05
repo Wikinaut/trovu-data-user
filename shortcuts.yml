@@ -8,6 +8,10 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+begriffel 0:
+  url: https://begriffel.tagesspiegel.de
+  title: Begriffel - Wordle auf Deutsch
+  tags: wordle tagesspiegel
 rc 0:
   url: https://www.respectcyclists.de/
   title: Respect Cyclists - Sicher Radfahren in Berlin
