@@ -8,6 +8,14 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+adfcb:
+  url: https://berlin.adfc.de/
+  title: ADFC Berlin
+  tags: berlin fahrrad adfc verkehrswende
+agh 0:
+  url: https://www.parlament-berlin.de/mediathek/parlament-live
+  tags: berlin abgeordnetenhaus parlament livestream
+  title: Abgeordnetenhaus Berlin Parlament live
 begriffel 0:
   url: https://begriffel.tagesspiegel.de
   title: Begriffel - Wordle auf Deutsch
