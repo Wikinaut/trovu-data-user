@@ -8,7 +8,7 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
-adfcb:
+adfcb 0:
   url: https://berlin.adfc.de/
   title: ADFC Berlin
   tags: berlin fahrrad adfc verkehrswende
