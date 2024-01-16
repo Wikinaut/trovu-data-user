@@ -8,6 +8,10 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+nl 1:
+  url: https://de.pons.com/Übersetzung/deutsch-niederländisch/<query>
+  title: PONS DE-NL
+  tags: dictionary wörterbuch niederländisch
 adfcb 0:
   url: https://berlin.adfc.de/
   title: ADFC Berlin
