@@ -536,9 +536,17 @@ ma 0:
   tags:
   - mastodon
   - chaossocial
+ur 1:
+  url: https://urbanrepair.de/#<query>
+  title: Urbanrepair
+  tags:
+  - urbanrepair
+  - berlin
+
 ur 0:
   url: https://urbanrepair.de
   title: Urbanrepair
   tags:
   - urbanrepair
   - berlin
+
