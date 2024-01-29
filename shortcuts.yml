@@ -8,6 +8,12 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+seg 0:
+  url: https://www.segor.de
+  title: SEGOR Elektronik Berlin
+seg 1:
+  url: https://www.segor.de/#Q=<query>
+  title: SEGOR Elektronik Berlin <Suchstring>
 nl 1:
   url: https://de.pons.com/übersetzung/deutsch-niederländisch/<query>
   title: PONS DE-NL
