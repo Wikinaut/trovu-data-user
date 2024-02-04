@@ -8,6 +8,9 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+wob 0:
+  url: https://www.wetteronline.de/wetter/berlin
+  title: Wetteronline Berlin
 seg 0:
   url: https://www.segor.de
   title: SEGOR Elektronik Berlin
