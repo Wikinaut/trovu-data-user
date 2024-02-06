@@ -8,6 +8,10 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+abp 0:
+  url: https://github.com/mltbnz/awesome-bikeprojects
+  title: Awesome bike projects (kuratierte Liste)
+  tags: fahrrad bicycle liste github fahrradprojekte
 wob 0:
   url: https://www.wetteronline.de/wetter/berlin
   title: Wetteronline Berlin
