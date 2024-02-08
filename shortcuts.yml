@@ -8,6 +8,10 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+cc 0:
+  url: https://changing-cities.org/
+  title: Changing Cities e.V.
+  tags: verkehr verkehrswende visionzero mahnwachen fahrrad lobbyarbeit
 abp 0:
   url: https://github.com/mltbnz/awesome-bikeprojects
   title: Awesome bike projects (kuratierte Liste)
