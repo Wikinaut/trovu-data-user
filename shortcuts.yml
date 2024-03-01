@@ -8,6 +8,10 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+ekn 0:
+  url: https://www.kleinanzeigen.de/
+  title: ebay Kleinanzeigen
+  tags: Kleinanzeigen
 ftb 0:
   url: https://fahrradtermine.berlin/
   title: Fahrradtermine Berlin
