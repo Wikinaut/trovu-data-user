@@ -8,6 +8,10 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+bowi 0:
+  url: https://urbanrepair.de/bowi.html
+  title: Vereinfachte Verkehrs-OWI-Anzeigen Berlin
+  tags: Verkehr Falschparker BOWI OWI Berlin Anzeigen Bußgeldstelle
 ekn 0:
   url: https://www.kleinanzeigen.de/
   title: ebay Kleinanzeigen
