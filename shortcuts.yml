@@ -8,6 +8,7 @@ l 1:
   - findfind.it
   examples:
     g: search for shortcuts containing "g"
+gdk 0: https://giessdenkiez.de
 bowi 0:
   url: https://urbanrepair.de/bowi.html
   title: Vereinfachte Verkehrs-OWI-Anzeigen Berlin
